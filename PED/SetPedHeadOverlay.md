@@ -12,7 +12,7 @@ void SET_PED_HEAD_OVERLAY(Ped ped, int overlayID, int index, float opacity);
 OverlayID ranges from 0 to 12, index from 0 to _GET_NUM_OVERLAY_VALUES(overlayID)-1, and opacity from 0.0 to 1.0.   
 overlayID       Part                  Index, to disable  
 0               Blemishes             0 - 23, 255  
-1               Facial Hair           0 - 28, 255  
+1               Beards         0 - 28, 255  
 2               Eyebrows              0 - 33, 255  
 3               Ageing                0 - 14, 255  
 4               Makeup                0 - 74, 255  
